@@ -1,0 +1,25 @@
+.home {
+  text-align: center;
+}
+
+.home-header {
+  position: relative;
+  height: 100vh;
+  background: url('your-background-image.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.background-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 20px 0;
+}
